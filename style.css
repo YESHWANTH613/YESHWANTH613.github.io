@@ -18,7 +18,7 @@
     background-color: white;
     margin: 100px auto 20px;
     padding: 40px 30px 70px;
-    border-radius: 100px 100px 100px 100px;
+    border-radius: 10px 10px 100px 100px;
 }
 .todo h2{
     color: black;
