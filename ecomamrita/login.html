@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amrita E-Commerce Website</title>
+    <link rel="stylesheet" href="loginStyle.css">
+    <script>
+        function validateForm() {
+            let username = document.forms['i1']['usnam'].value;
+            let password = document.forms['i1']['pass'].value;
+            if (username === '' || password === '') {
+                alert('Please fill in all fields.');
+                return false;
+            }
+
+            else if(username == "cb.en.u4aie22102@cb.students.amrita.edu" && password=="12"){
+                
+                return true;
+
+            }
+            else{
+                return false;
+            }
+            
+
+        }
+    </script>
+
+</head>
+
+<body>
+    <section id="header">
+
+        <a href="#"><img class="logo" src="img/Amrita-vishwa-vidyapeetham-color-logo11-removebg-preview.png"
+                alt="Amrita Logo"></a>
+
+        <h1>Login Page</h1>
+    </section>
+    <section id="page-header">
+
+        <h2>#Login & SignUp Here</h2>
+
+    </section>
+
+    <div class="container">
+        <div class="screen" id="loginnn">
+            <div class="title">
+                <h3 style="padding: 60px 0px 0px 0px;"> Login Here</h3>
+            </div>
+            <div class="screen__content">
+                <form name="i1" action="grp7.html" class="login">
+                    <div class="login__field">
+                        <i class="login__icon fas fa-user"></i>
+                        <input name= "usnam" type="text" class="login__input" placeholder="User name">
+                    </div>
+                    <div class="login__field">
+                        <i class="login__icon fas fa-lock"></i>
+                        <input  name="pass" type="password" class="login__input" placeholder="Password">
+                    </div>
+                    
+                    <button class="button login__submit" onclick="validateForm()" >
+                        
+                            <span class="button__text">Log In Now</span>
+                        <i class="button__icon fas fa-chevron-right"></i> 
+
+                    </button>
+                    </a>
+                </form>
+                <div class="social-login">
+                    <div class="social-icons">
+                        <a href="#" class="social-login__icon fab fa-instagram"></a>
+                        <a href="#" class="social-login__icon fab fa-facebook"></a>
+                        <a href="#" class="social-login__icon fab fa-twitter"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="screen__background">
+                <span class="screen_backgroundshape screenbackground_shape4"></span>
+                <span class="screen_backgroundshape screenbackground_shape3"></span>
+                <span class="screen_backgroundshape screenbackground_shape2"></span>
+                <span class="screen_backgroundshape screenbackground_shape1"></span>
+            </div>
+        </div>
+        <div class="screen" id="signuppp">
+            <div class="title">
+                <h3 style="padding: 60px 0px 0px 0px;"> SignUp Here</h3>
+            </div>
+            <div class="screen__content">
+                <form name="i1" action="grp7.html" class="login">
+                    <div class="login__field">
+                        <i class="login__icon fas fa-user"></i>
+                        <input name= "usnam" type="text" class="login__input" placeholder="User name">
+                    </div>
+                    <div class="login__field">
+                        <i class="login__icon fas fa-lock"></i>
+                        <input  name="pass" type="password" class="login__input" placeholder="Password">
+                    </div>
+                    
+                    <button class="button login__submit" onclick="alert('Signed Up')" >
+                        
+                            <span class="button__text">SignUp</span>
+                        <i class="button__icon fas fa-chevron-right"></i> 
+
+                    </button>
+                    </a>
+                </form>
+                <div class="social-login">
+                    <div class="social-icons">
+                        <a href="#" class="social-login__icon fab fa-instagram"></a>
+                        <a href="#" class="social-login__icon fab fa-facebook"></a>
+                        <a href="#" class="social-login__icon fab fa-twitter"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="screen__background">
+                <span class="screen_backgroundshape screenbackground_shape4"></span>
+                <span class="screen_backgroundshape screenbackground_shape3"></span>
+                <span class="screen_backgroundshape screenbackground_shape2"></span>
+                <span class="screen_backgroundshape screenbackground_shape1"></span>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
